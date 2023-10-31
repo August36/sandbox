@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#game_container{
+    font-family: "permanent marker", cursive;
+    text-align: center;
+}
+
+#game_board{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    border: 2px solid black;
+    width: 236px;
+    margin: auto;
+} 
+
+.square{
+    border: 2px solid black;
+    width: 75px;
+    height: 75px;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
